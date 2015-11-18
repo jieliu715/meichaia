@@ -1,0 +1,150 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.best.fragment.AboutFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/wode_bg"
+            android:layout_height="0dp"
+            android:id="@+id/llyout1">
+            <LinearLayout
+                android:layout_weight="0.7"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp">
+                <ImageView
+                    android:background="@drawable/liuyan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="0.4"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp">
+                <TextView android:text="dkkfkf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+                <RadioGroup
+                    android:id="@+id/rg"
+                    android:layout_weight="0.76"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
+                    android:background="#66cccc"
+                    android:paddingTop="10dp"
+                    >
+                <RadioButton
+                    android:id="@+id/location"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/jianli"
+                    android:text="简历"
+                    android:button="@null"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    />
+
+                <RadioButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/shoucang"
+                    android:text="收藏"
+                    android:button="@null"
+                    android:id="@+id/share"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    />
+
+
+                <RadioButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/at"
+                    android:button="@null"
+                    android:drawableTop="@drawable/liuyan"
+                    android:text="留言"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    />
+                <RadioButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/at2"
+                    android:button="@null"
+                    android:drawableTop="@drawable/jilu"
+                    android:text="记录"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    />
+                </RadioGroup>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:paddingTop="30dp"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp">
+            <Button
+                android:id="@+id/location1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/guding1_0"
+                android:text="首页"
+                android:button="@null"
+                android:layout_weight="1"
+                android:gravity="center"
+                />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/guding2_0"
+                android:text="分类"
+                android:button="@null"
+                android:id="@+id/share1"
+                android:layout_weight="1"
+                android:gravity="center"
+                />
+
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/at1"
+                android:button="@null"
+                android:drawableTop="@drawable/guding3_0"
+                android:text="人物传记"
+                android:gravity="center"
+                android:layout_weight="1"
+                />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/at21"
+                android:button="@null"
+                android:drawableTop="@drawable/guding4_0"
+                android:text="我的"
+                android:gravity="center"
+                android:layout_weight="1"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</RelativeLayout>
