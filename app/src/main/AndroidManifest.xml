@@ -20,6 +20,10 @@
             android:name=".LoginActivity"
             android:label="@string/title_activity_login" >
         </activity>
+        <activity
+            android:name=".FaxianActivity"
+            android:label="@string/title_activity_faxian" >
+        </activity>
     </application>
 
 </manifest>
